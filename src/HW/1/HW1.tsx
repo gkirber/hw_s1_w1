@@ -1,3 +1,5 @@
+import { UserList } from "./UserList";
+
 export const HW1 = () => {
   // 1️⃣ Раскомментируйте JSX (HW1.tsx, UserList.tsx) и вы увидите,
   // что приложение начнет гореть красным и ругаться 😡
@@ -77,7 +79,7 @@ export const HW1 = () => {
   return (
     <div id={"hw01"}>
       <h1>Test GitHub Page</h1>
-      {/*<UserList users={'НАЗВАНИЕ МАССИВА, КОТОРЫЙ МЫ ПЕРЕДАЕМ'} />*/}
+      <UserList users={users} />
     </div>
   );
 };
